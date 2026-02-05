@@ -439,8 +439,6 @@ export default function Footer() {
                         transition: 'background-color var(--transition-hover)',
                         opacity: 1,
                         whiteSpace: 'nowrap',
-                        marginRight: '-10px',
-                        zIndex: 0,
                       }}
                     >
                       <span style={{ position: 'relative' }}>
@@ -448,12 +446,11 @@ export default function Footer() {
                       </span>
                     </button>
 
-                    <div
-                      style={{
+                    <div 
+                      style={{ 
                         position: 'relative',
                         flex: 1,
                         height: '48px',
-                        zIndex: 1,
                       }}
                     >
                       <input
@@ -479,7 +476,7 @@ export default function Footer() {
                           border: 'none',
                           borderTop: '4px solid var(--color-accent)',
                           borderBottom: '4px solid var(--color-accent)',
-                          borderRadius: '8px',
+                          borderRadius: '0px',
                           outline: 'none',
                           position: 'relative',
                           zIndex: 0,
