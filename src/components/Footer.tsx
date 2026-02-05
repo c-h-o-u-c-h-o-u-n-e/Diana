@@ -476,7 +476,7 @@ export default function Footer() {
                           border: 'none',
                           borderTop: '4px solid var(--color-accent)',
                           borderBottom: '4px solid var(--color-accent)',
-                          borderRadius: '0px',
+                          borderRadius: '8px',
                           outline: 'none',
                           position: 'relative',
                           zIndex: 0,
