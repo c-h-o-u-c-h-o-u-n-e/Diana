@@ -440,7 +440,7 @@ export default function Footer() {
                         opacity: 1,
                         whiteSpace: 'nowrap',
                         marginRight: '-10px',
-                        zIndex: 1,
+                        zIndex: 0,
                       }}
                     >
                       <span style={{ position: 'relative' }}>
@@ -453,7 +453,7 @@ export default function Footer() {
                         position: 'relative',
                         flex: 1,
                         height: '48px',
-                        zIndex: 2,
+                        zIndex: 1,
                       }}
                     >
                       <input
